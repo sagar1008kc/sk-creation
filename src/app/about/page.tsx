@@ -3,27 +3,23 @@
 import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
-import { Card } from 'primereact/card';
 
 
 export default function AboutAuthorPage() {
   return (
     <div className="min-h-screen bg-gray-100 p-6">
-      <div className="max-w-4xl mx-auto py-10">
-        <div className="flex flex-col md:flex-row  items-center">
-          <Image
-            src="/images/profile.jpg"
-            alt="Sagar Khatri"
-            width={200}
-            height={200}
-            className="rounded-full"
-          />
-          <div className="flex justify-center items-center min-h-screen bg-gray-100 p-6">
-      <Card className="text-center shadow-2xl p-6 max-w-lg w-full">
+      <div className="max-w-4xl mx-auto ">
+      <h3 className="text-center text-2xl md:text-3xl font-extrabold text-gray-700 py-5 border-b-4 border-indigo-500 inline-block mx-auto w-fit tracking-wide">
+  About The Author
+</h3>
+
+       <div className="flex justify-center items-center min-h-screen bg-gray-100 p-6">
+      
+      <div className="text-center max-w-lg w-full">
         <Image
-          src="/76cf8f51-f399-446b-8412-cd94bf642072.png" // adjust path if needed
+          src="/images/profile.jpg" // adjust path if needed
           alt="About the Author"
-          width={400}
+          width={500}
           height={200}
           className="mx-auto rounded-full mb-4"
         />
@@ -37,7 +33,7 @@ export default function AboutAuthorPage() {
           Microsoft Certified Azure DevOps Engineer <br />
           Google Cloud Certified Cloud Architect Professional
         </p>
-      </Card>
+      </div>
     </div>
           <div className="text-gray-700 text-[13px]">
             <p className="mb-4">
@@ -57,6 +53,5 @@ export default function AboutAuthorPage() {
           </p>
       </div>
       </div>
-    </div>
   );
 }
