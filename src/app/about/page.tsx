@@ -3,6 +3,7 @@
 import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
+import { Divider } from 'primereact/divider';
 
 
 export default function AboutAuthorPage() {
@@ -17,7 +18,7 @@ export default function AboutAuthorPage() {
       
       <div className="text-center max-w-lg w-full">
         <Image
-          src="/images/profile.jpg" // adjust path if needed
+          src="/images/author.PNG" // adjust path if needed
           alt="About the Author"
           width={500}
           height={200}
@@ -31,8 +32,12 @@ export default function AboutAuthorPage() {
           USAII Certified AI Scientist <br />
           CompTIA Security+, CYSA+ Certified <br />
           Microsoft Certified Azure DevOps Engineer <br />
-          Google Cloud Certified Cloud Architect Professional
+          Google Cloud Certified Cloud Architect Professional <br />
+         
+
         </p>
+        <hr className="my-4 border-gray-300" />
+        <p> Click for Latest Books: <a href='https://www.amazon.com/author/sagar2025' className="mt-3 underline text-blue-400 cursor-auto">Amazon Author</a></p>
       </div>
     </div>
           <div className="text-gray-700 text-[13px]">
@@ -45,6 +50,7 @@ export default function AboutAuthorPage() {
             <p>
               Through his books, he aims to bridge the gap between technical skills and strategic thinking, empowering professionals to thrive in the AI-driven digital age.
             </p>
+            <p>Beside from tech life, he enjoys creating imaginative and educational children’s books that inspire curiosity, creativity, and character development. Plus hobbies: song and novel writing...</p>
           </div>
         </div>
         <div className="text-center mt-6">

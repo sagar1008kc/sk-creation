@@ -9,8 +9,10 @@ export default function Header() {
         <Image src="/skcreationLOGO.png" alt="SKCreation" width={200} height={100} />
       </div>
       <div className="text-sm text-gray-500 flex gap-6">
-      <Link href="/about">About The Author</Link>
-        <Link href="/">Service</Link>
+        <Link href="/">Books</Link>
+        <Link href="/">Collections</Link>
+        <Link href="/">Studio</Link>
+        <Link href="/about">About</Link>
       </div>
     </nav>
   );
