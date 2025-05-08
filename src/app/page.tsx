@@ -10,7 +10,7 @@ import { Divider } from 'primereact/divider';
 export default function HomePage() {
 
   return (
-    <div className="min-h-screen bg-black">
+    <div className="min-h-screen bg-black text-center">
       <Header />
  
       {/* Hero Section */}
@@ -27,7 +27,7 @@ export default function HomePage() {
         <Image
           src="/images/ai-work-3.png"
           alt="Book Cover"
-          width={500}
+          width={1200}
           height={200}
         />
       </div>
@@ -75,13 +75,13 @@ style={{
       {/* Published Books */}
       <div className="max-w-6xl mx-auto mb-12">
         <h2 className="text-2xl font-bold mb-12 text-center">Published Books</h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div className="grid grid-cols-1">
           <motion.div whileHover={{ scale: 1.02 }}>
             <Card className="shadow-lg p-3">
               <Image
                 src="/images/ai-powered.png"
                 alt="Published Book"
-                width={500}
+                width={1200}
                 height={200}
                 className="mb-4 mx-auto"
               />
@@ -98,13 +98,14 @@ style={{
           </Button>
             </Card>
           </motion.div>
-         
+          </div>
+          <div className="grid grid-cols-1">
           <motion.div whileHover={{ scale: 1.02 }}>
             <Card className="shadow-lg p-3">
               <Image
                 src="/images/cybersecurity.jpg"
                 alt="Second Published Book"
-                width={200}
+                width={500}
                 height={300}
                 className="mb-4 mx-auto"
               />
@@ -121,12 +122,14 @@ style={{
           </Button>
             </Card>
           </motion.div>
+          </div>
+          <div className="grid grid-cols-1">
           <motion.div whileHover={{ scale: 1.02 }}>
             <Card className="shadow-lg p-3">
               <Image
                 src="/images/ai-work-1.png"
                 alt="third Published Book"
-                width={200}
+                width={500}
                 height={300}
                 className="mb-4 mx-auto"
               />
@@ -143,6 +146,8 @@ style={{
           </Button>
             </Card>
           </motion.div>
+          </div>
+          <div className="grid grid-cols-1">
           <motion.div whileHover={{ scale: 1.02 }}>
             <Card className="shadow-lg p-3">
               <Image

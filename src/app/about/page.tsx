@@ -3,16 +3,17 @@
 import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
+import { Button } from 'primereact/button';
 
 export default function AboutAuthorPage() {
   return (
-    <div className="min-h-screen bg-gray-100 p-6">
+    <div className="min-h-screen p-6">
       <div className="max-w-4xl mx-auto ">
       <h3 className="text-center text-2xl md:text-3xl font-extrabold text-white py-5 border-b-4 border-indigo-500 inline-block mx-auto w-fit tracking-wide">
   About The Author
 </h3>
 
-       <div className="flex justify-center items-center min-h-screen bg-black">
+       <div className="flex justify-center items-center min-h-screen">
       
       <div className="text-center max-w-lg w-full">
         <Image
@@ -53,7 +54,7 @@ export default function AboutAuthorPage() {
         </div>
         <div className="text-center mt-6">
           <p className="text-sm p-2">
-          <Link href="/">Home</Link>
+          <Link href="/" className='border p-4 pl-8'>Home</Link>
           </p>
       </div>
       </div>

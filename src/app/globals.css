@@ -23,7 +23,6 @@ body {
   background-color: #0F172A;
   color: #F8FAFC;
   font-family: 'Inter', sans-serif;
-  padding: 20px;
 }
 
 h1, h2, h3 {
@@ -34,8 +33,7 @@ p {
   color: #F8FAFC;
 }
 a {
-  background-color: #e99e11;
-  color: #0F172A;
+  color: #ffffff;
   font-weight: bold;
   border-radius: 8px;
   padding-inline: 4px;

@@ -1,6 +1,7 @@
 'use client';
 import Link from 'next/link';
 import Image from 'next/image';
+import { Divider } from 'primereact/divider';
 
 export default function Header() {
   return (
@@ -12,7 +13,7 @@ export default function Header() {
       </div>
       <div className="text-white flex gap-3 text-[12px] md:text-[18px]">
         <Link href="/">Books</Link>
-        <Link href="/">Collections</Link>
+        <Link href="/">Design</Link>
         <Link href="/">Studio</Link>
         <Link href="/about">About</Link>
       </div>
