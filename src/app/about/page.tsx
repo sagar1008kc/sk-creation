@@ -16,7 +16,7 @@ export default function AboutAuthorPage() {
       
       <div className="text-center max-w-lg w-full">
         <Image
-          src="/images/author.PNG" // adjust path if needed
+          src="/images/author.PNG"
           alt="About the Author"
           width={500}
           height={200}
