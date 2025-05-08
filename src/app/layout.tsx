@@ -4,8 +4,8 @@ import type { Metadata } from 'next';
 import { PrimeReactProvider } from 'primereact/api';
 
 export const metadata: Metadata = {
-  title: 'SK Books | AI-Powered Future',
-  description: 'Books authored by Sagar Khatri on AI, Cybersecurity, and more.',
+  title: 'SK creation',
+  description: 'Books, collections, and studio',
 };
 
 export default function RootLayout({

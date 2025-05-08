@@ -8,11 +8,11 @@ export default function AboutAuthorPage() {
   return (
     <div className="min-h-screen bg-gray-100 p-6">
       <div className="max-w-4xl mx-auto ">
-      <h3 className="text-center text-2xl md:text-3xl font-extrabold text-gray-700 py-5 border-b-4 border-indigo-500 inline-block mx-auto w-fit tracking-wide">
+      <h3 className="text-center text-2xl md:text-3xl font-extrabold text-white py-5 border-b-4 border-indigo-500 inline-block mx-auto w-fit tracking-wide">
   About The Author
 </h3>
 
-       <div className="flex justify-center items-center min-h-screen bg-gray-100 p-6">
+       <div className="flex justify-center items-center min-h-screen bg-black">
       
       <div className="text-center max-w-lg w-full">
         <Image
@@ -38,7 +38,7 @@ export default function AboutAuthorPage() {
         <p> Click for Latest Books: <a href='https://www.amazon.com/author/sagar2025' className="mt-3 underline text-blue-400 cursor-auto">Amazon Author</a></p>
       </div>
     </div>
-          <div className="text-gray-700 text-[13px]">
+          <div className="text-white text-[13px]">
             <p className="mb-4">
               <strong>Sagar Khatri</strong> is a technology strategist, educator, and author with a diverse background spanning software engineering, cybersecurity, and AI. With over 10 years of experience, Khatri has contributed to enterprise-scale applications, led innovation initiatives, and mentored future tech leaders.
             </p>
@@ -52,7 +52,7 @@ export default function AboutAuthorPage() {
           </div>
         </div>
         <div className="text-center mt-6">
-          <p className="text-sm bg-blue-100 p-2">
+          <p className="text-sm p-2">
           <Link href="/">Home</Link>
           </p>
       </div>

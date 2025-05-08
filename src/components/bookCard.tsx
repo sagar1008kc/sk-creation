@@ -8,7 +8,7 @@ export default function BookCard({ title, image, desc, link }: { title: string, 
   return (
     <Card title={title} className="shadow-md">
       <Image src={image} alt={title} width={200} height={300} className="mx-auto mb-4" />
-      <p className="text-gray-700 mb-4">{desc}</p>
+      <p className="text-white mb-4">{desc}</p>
       <Link href={link}>
         <Button label="Learn More" className="p-button-text" />
       </Link>
