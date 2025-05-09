@@ -4,6 +4,7 @@ import './globals.css';
 import type { Metadata } from 'next';
 import { PrimeReactProvider } from 'primereact/api';
 import Footer from '@/components/Footer';
+import Contact from '@/components/Contact';
 
 export const metadata: Metadata = {
   title: 'SK creation',
@@ -20,6 +21,7 @@ export default function RootLayout({
       <body>
       <Header />
         <PrimeReactProvider>{children}</PrimeReactProvider>
+        <Contact />
         <Footer />
       </body>
     </html>
