@@ -41,7 +41,7 @@ export default function HomePage() {
       
 
       {/* About the Book */}
-      <div className="max-w-3xl mx-auto mb-10">
+      <div className="max-w-3xl mx-auto mb-10 p-4">
         <Card title={<span className="font-bold text-[16px]">About the Book</span>}>
           <p className="text-white text-[13px]">
           Unlock the power of artificial intelligence — without needing to code, write algorithms, or fear the future.
@@ -51,9 +51,9 @@ export default function HomePage() {
       </div>
 
       {/* What’s Inside */}
-      <div className="max-w-3xl mx-auto mb-10">
+      <div className="max-w-3xl mx-auto mb-10 p-4">
         <Card title={<span className="font-bold text-[16px]">What’s Inside</span>}>
-          <ul className="list-disc ml-6 text-white text-[13px]">
+          <ul className="list-disc ml-6 text-white text-[13px] text-left">
             <li>Start Your Digital Business Using AI</li>
             <li>Stay Safe with AI</li>
             <li>100 Prompt Templates for Everyday AI Use</li>
@@ -83,7 +83,7 @@ style={{
                 className="mb-4 mx-auto"
               />
               <h3 className="text-xl font-semibold mb-2">The AI-Powered Software Engineer</h3>
-              <p className="text-white mb-4 text-[13px]">
+              <p className="text-white mb-4 text-[13px] p-3">
                 A must-read for developers who want to integrate AI tools into modern workflows.
               </p>
               <Button 
@@ -102,7 +102,7 @@ style={{
               <Image
                 src="/images/cybersecurity.jpg"
                 alt="Second Published Book"
-                width={500}
+                width={400}
                 height={300}
                 className="mb-4 mx-auto"
               />
@@ -126,7 +126,7 @@ style={{
               <Image
                 src="/images/ai-work-1.png"
                 alt="third Published Book"
-                width={500}
+                width={400}
                 height={300}
                 className="mb-4 mx-auto"
               />

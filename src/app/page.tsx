@@ -7,9 +7,15 @@ export default function HomePage() {
   return (
     <>
       <main className="pt-[30px]">
-  <h1 className="text-3xl md:text-5xl font-bold text-[#800000] mb-3 text-center py-2">
-          Welcome to SKCreation
-        </h1>
+      <motion.div whileHover={{ scale: 1.02 }}>
+        <Image
+                src="/images/divider-1.png"
+                alt="fourth Published Book"
+                width={1200}
+                height={60}
+                className="mb-7 mx-auto"
+              />
+        </motion.div>
         <section className="w-full">
         <motion.div whileHover={{ scale: 1.02 }}>
             <Card className="shadow-lg p-4">
@@ -20,7 +26,7 @@ export default function HomePage() {
                 height={500}
                 className="mb-4 mx-auto"
               />
-              <p className="text-lg md:text-xl max-w-2xl mx-auto mb-2">
+              <p className="text-lg md:text-xl max-w-2xl mx-auto mb-2 p-2">
           Explore our world of creativity — from inspiring books to custom-designed
           T-shirts and mugs that make a statement. Plus, don’t miss out on special contents. Checkout our videos on YouTube!
         </p>
@@ -29,13 +35,13 @@ export default function HomePage() {
         <a
         href="https://www.amazon.com/author/sagar2025"
         target="_blank"
-        className="bg-[#FFFDD0] text-black px-6 py-2 rounded-full hover:bg-red transition text-xs md:text-lg" style={{ color: 'black' }}
+        className="bg-[#FFFDD0] text-black px-3 py-2 rounded-full hover:bg-red transition text-xs md:text-lg" style={{ color: 'black' }}
         >
           Shop Books
         </a>
     <a
       href="/design"
-      className="bg-[#FFFDD0] px-6 py-2 rounded-full hover:bg-red transition text-xs md:text-lg" style={{ color: 'black' }}
+      className="bg-[#FFFDD0] px-3 py-2 rounded-full hover:bg-red transition text-xs md:text-lg" style={{ color: 'black' }}
     >
       Shop T-Shirts & Mugs
     </a>
@@ -43,16 +49,15 @@ export default function HomePage() {
       href="https://www.youtube.com/@thesoftsoul7"
       target="_blank"
       rel="noopener noreferrer"
-      className="bg-[#b2071d] px-6 py-2 rounded-full hover:bg-gray transition text-sx md:text-lg"
+      className="bg-[#b2071d] px-3 py-2 rounded-full hover:bg-gray transition text-sx md:text-lg"
     >
       Watch on YouTube
     </a>
   </div>
-            </Card>
+      </Card>
           </motion.div>
         </section>
-
-        <section className="w-full mt-6">
+        <section className="w-full mt-12  p-5">
           <video
             src="/videos/sk.mp4"
             controls

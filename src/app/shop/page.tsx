@@ -6,7 +6,7 @@ import { Card } from 'primereact/card';
 export default function Shop() {
   return (
     <>
-      <main className="pt-[30px]">
+      <main className="pt-[30px] bg-white">
   <h1 className="text-3xl md:text-5xl font-bold text-[#800000] mb-3 text-center py-2">
           Shop your favorite T-shirt & Mug - Best Gift
         </h1>
