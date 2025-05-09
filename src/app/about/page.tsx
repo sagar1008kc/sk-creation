@@ -12,13 +12,13 @@ export default function AboutAuthorPage() {
   About The Author
 </h3>
 
-       <div className="flex justify-center items-center min-h-screen">
+       <div className="flex justify-center items-center mt-4">
       
       <div className="text-center max-w-lg w-full">
         <Image
           src="/images/author.PNG"
           alt="About the Author"
-          width={500}
+          width={300}
           height={200}
           className="mx-auto rounded-full mb-4"
         />
@@ -35,7 +35,10 @@ export default function AboutAuthorPage() {
 
         </p>
         <hr className="my-4 border-gray-300" />
-        <p> Click for Latest Books: <a href='https://www.amazon.com/author/sagar2025' className="mt-3 underline text-blue-400 cursor-auto">Amazon Author</a></p>
+        <div className='p-5'>
+        <p> Click for Latest Books: <a href='https://www.amazon.com/author/sagar2025'><span className='text-white underline'>Amazon Author Site</span></a></p>
+        </div>
+       
       </div>
     </div>
           <div className="text-white text-[13px]">

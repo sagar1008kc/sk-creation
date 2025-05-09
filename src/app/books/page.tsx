@@ -3,14 +3,11 @@ import { Button } from 'primereact/button';
 import { Card } from 'primereact/card';
 import Image from 'next/image';
 import { motion } from 'framer-motion';
-import { Divider } from 'primereact/divider';
 
 export default function HomePage() {
 
   return (
     <div className="min-h-screen bg-black text-center">
- 
-      {/* Hero Section */}
       <motion.div 
         className="text-center py-10"
         initial={{ opacity: 0, y: -20 }} 
@@ -37,10 +34,6 @@ export default function HomePage() {
           </Button>
       </motion.div>
 
-      {/* Book Cover Section */}
-      
-
-      {/* About the Book */}
       <div className="max-w-3xl mx-auto mb-10 p-4">
         <Card title={<span className="font-bold text-[16px]">About the Book</span>}>
           <p className="text-white text-[13px]">
@@ -68,7 +61,7 @@ style={{
       backgroundPosition: 'center',
       width: '100%',
 }}></div>
-  <Divider style={{ backgroundColor: '#444', height: '2px', margin: '2rem 0' }} />
+        <div className='text-center border-t my-8'></div>
       {/* Published Books */}
       <div className="max-w-6xl mx-auto mb-12">
         <h2 className="text-2xl font-bold mb-12 text-center">Published Books</h2>
@@ -96,6 +89,7 @@ style={{
             </Card>
           </motion.div>
           </div>
+          <div className='text-center border-t my-8'></div>
           <div className="grid grid-cols-1">
           <motion.div whileHover={{ scale: 1.02 }}>
             <Card className="shadow-lg p-4">
@@ -120,6 +114,7 @@ style={{
             </Card>
           </motion.div>
           </div>
+          <div className='text-center border-t my-8'></div>
           <div className="grid grid-cols-1">
           <motion.div whileHover={{ scale: 1.02 }}>
             <Card className="shadow-lg p-4">
@@ -144,6 +139,7 @@ style={{
             </Card>
           </motion.div>
           </div>
+          <div className='text-center border-t my-8'></div>
           <div className="grid grid-cols-1">
           <motion.div whileHover={{ scale: 1.02 }}>
             <Card className="shadow-lg p-4">

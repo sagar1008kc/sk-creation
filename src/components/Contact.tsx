@@ -35,29 +35,29 @@ export default function ContactPage() {
 
   return (
     <>
-    <div className="text-center mb-4">
-  <h5 className="text-2xl font-semibold text-white mb-4">
-    Stay Tuned!
-  </h5>
-  <p className="text-gray-700 text-md md:text-lg max-w-xl mx-auto p-3">
+    <div className="text-center mb-4 border-20 border-blue-100 ">
+    <h5 className="text-2xl text-white m-4">
+        Stay Tuned!
+    </h5>
+  <span className="text-sm md:text-md max-w-xl mx-auto p-5">
     Have a message for us or feedback to share? We’d love to hear from you!
     Leave your name and email below, and we’ll notify you when we release new books,
     launch fresh designs, or update our shop with exciting items.
-  </p>
-</div>
+  </span>
+
     <div className="flex justify-center items-center px-4">
       <div className="p-8 rounded-lg shadow-md w-full max-w-xl">
-        <h2 className="text-2xl font-bold text-center text-black mb-6">
+        <span className="text-xl font-bold text-center text-white">
           Contact Us
-        </h2>
+        </span>
         {submitted ? (
           <p className="text-green-600 text-center">
             Thank you! We will notify you when new books or items are available.
           </p>
         ) : (
-          <form onSubmit={handleSubmit} className="space-y-4">
+          <form onSubmit={handleSubmit} className="space-y-4 mt-3">
             <div>
-              <label htmlFor="fullName" className="block mb-1 font-medium">
+              <label htmlFor="fullName" className="block mb-1 font-small">
                 Full Name <span className="text-red-500">*</span>
               </label>
               <InputText
@@ -71,7 +71,7 @@ export default function ContactPage() {
             </div>
 
             <div>
-              <label htmlFor="email" className="block mb-1 font-medium">
+              <label htmlFor="email" className="block mb-1 font-small">
                 Email <span className="text-red-500">*</span>
               </label>
               <InputText
@@ -85,7 +85,7 @@ export default function ContactPage() {
             </div>
 
             <div>
-              <label htmlFor="phone" className="block mb-1 font-medium text-black">
+              <label htmlFor="phone" className="block mb-1 font-small">
                 Phone (optional)
               </label>
               <InputText
@@ -98,7 +98,7 @@ export default function ContactPage() {
             </div>
 
             <div>
-              <label htmlFor="message" className="block mb-1 font-medium text-black">
+              <label htmlFor="message" className="block mb-1 font-small">
                 Message (optional)
               </label>
               <InputTextarea
@@ -114,6 +114,7 @@ export default function ContactPage() {
             <Button type="submit" label="Notify Me" className="w-full bg-[#800000] p-2 rounded-full" />
           </form>
         )}
+        </div>
       </div>
     </div>
     </>
