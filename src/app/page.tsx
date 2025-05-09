@@ -39,12 +39,13 @@ export default function HomePage() {
         >
           Shop Books
         </a>
-    <a
-      href="/design"
-      className="bg-[#FFFDD0] px-3 py-2 rounded-full hover:bg-red transition text-xs md:text-lg" style={{ color: 'black' }}
-    >
-      Shop T-Shirts & Mugs
-    </a>
+        <a
+          href="/design"
+          className="bg-[#FFFDD0] px-3 py-2 rounded-full hover:bg-red transition text-xs md:text-lg" style={{ color: 'black' }}
+        >
+          Shop T-Shirts & Mugs
+        </a>
+        <hr className="my-4 border-gray-300" />
     <a
       href="https://www.youtube.com/@thesoftsoul7"
       target="_blank"
