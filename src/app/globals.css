@@ -26,16 +26,22 @@ body {
 }
 
 h1, h2, h3 {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Roboto Mono', monospace;
   color: #00E396;
 }
+h4, h5, h6 {
+  font-family: 'Orbitron', sans-serif;
+  color: #a79df3;
+}
 p {
-  color: #F8FAFC;
+  color: #a79df3;
+  font-size: 15px;
 }
 a {
-  color: #ffffff;
+  color: #201114;
   font-weight: bold;
   border-radius: 8px;
   padding-inline: 4px;
 }
+
 

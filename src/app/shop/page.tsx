@@ -20,7 +20,7 @@ export default function Shop() {
                 height={500}
                 className="mb-4 mx-auto"
               />
-              <p className="text-lg md:text-xl max-w-2xl mx-auto mb-2">
+              <p className="text-sm md:text-xl max-w-2xl mx-auto mb-2">
           Explore our world of creativity — custom-designed
           T-shirts and mugs that make your favorite choice.
         </p>
