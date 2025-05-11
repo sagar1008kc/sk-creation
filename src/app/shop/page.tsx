@@ -1,6 +1,7 @@
 'use client';
 import { motion } from 'framer-motion';
 import Image from 'next/image';
+import Link from 'next/link';
 import { Card } from 'primereact/card';
 
 export default function Shop() {
@@ -26,12 +27,12 @@ export default function Shop() {
         </p>
               
         <div className="flex justify-center flex-wrap gap-4 mt-6">
-            <a
-            href="/design"
+            <Link
+            href="/"
             className="bg-[#FFFDD0] px-6 py-2 rounded-full hover:bg-red transition text-xs md:text-lg" style={{ color: 'black' }}
             >
             Shop T-Shirts & Mugs
-            </a>
+            </Link>
   </div>
             </Card>
           </motion.div>

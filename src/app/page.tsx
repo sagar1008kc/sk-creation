@@ -1,6 +1,7 @@
 'use client';
 import { motion } from 'framer-motion';
 import Image from 'next/image';
+import { Button } from 'primereact/button';
 import { Card } from 'primereact/card';
 
 export default function HomePage() {
@@ -8,7 +9,7 @@ export default function HomePage() {
     <>
        <div className='text-center pt-5'>
           <h5 className="text-xl md:text-3xl"  style={{ letterSpacing: '6px' }}>
-            Welcome to SK creation..</h5>
+            Welcome to Dr SK Brand</h5>
         </div>
       <main className="pt-[30px]">
         <section className="w-full">
@@ -30,29 +31,26 @@ export default function HomePage() {
           <a
           href="https://www.amazon.com/author/sagar2025"
           target="_blank"
-          className="bg-[#FFFDD0] text-black px-3 py-2 rounded-full hover:bg-red transition text-xs md:text-lg" style={{ color: 'black' }}
-          >
-            Shop Books
+          ><Button type="submit" label="Shop Books" className="w-full bg-[#a79df3] p-2 rounded-full" />
           </a>
           <a
             href="/design"
-            className="bg-[#FFFDD0] px-3 py-2 rounded-full hover:bg-red transition text-xs md:text-lg" style={{ color: 'black' }}
           >
-            Shop T-Shirts & Mugs
+            <Button type="submit" label="Shop T-Shirts & Mugs" className="w-full bg-[#a79df3] p-2 rounded-full" />
+            
           </a>
           <a
             href="https://www.youtube.com/@thesoftsoul7"
             target="_blank"
             rel="noopener noreferrer"
-            className="bg-[#b2071d] px-3 py-2 rounded-full hover:bg-gray transition text-sx md:text-lg"
           >
-            Watch on YouTube
+            <Button type="submit" label="Watch on YouTube" className="w-full bg-[#a79df3] p-2 rounded-full" />
+            
           </a>
         </div>
       </Card>
       </motion.div>
         </section>
-       
         <section className="w-full mt-12  p-5">
         <div className='text-center border-t'>
           <h3 className="text-3xl md:text-5xl font-bold m-5">
