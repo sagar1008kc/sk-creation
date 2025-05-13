@@ -31,12 +31,12 @@ export default function HomePage() {
           <a
           href="https://www.amazon.com/author/sagar2025"
           target="_blank"
-          ><Button type="submit" label="Shop Books" className="w-full bg-[#a79df3] p-2 rounded-full" />
+          ><Button type="submit" label="Shop Books" className="w-full bg-[#a79df3] p-2 rounded-full text-sm md:text-3xl" />
           </a>
           <a
             href="/design"
           >
-            <Button type="submit" label="Shop T-Shirts & Mugs" className="w-full bg-[#a79df3] p-2 rounded-full" />
+            <Button type="submit" label="Shop T-Shirts & Mugs" className="w-full bg-[#a79df3] p-2 rounded-full text-sm md:text-3xl" />
             
           </a>
           <a
@@ -44,7 +44,7 @@ export default function HomePage() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <Button type="submit" label="Watch on YouTube" className="w-full bg-[#a79df3] p-2 rounded-full" />
+            <Button type="submit" label="Watch on YouTube" className="w-full bg-[#a79df3] p-2 rounded-full text-sm md:text-3xl" />
             
           </a>
         </div>

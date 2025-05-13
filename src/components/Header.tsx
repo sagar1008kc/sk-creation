@@ -21,11 +21,10 @@ const Header: FC = () => {
         <div className="flex justify-center items-center">
           <Link href="/" passHref>
             <Image
-              src="/drskT.png"
-              alt="SKCreation"
+              src="/smindLOGO.png"
+              alt="smindBusiness"
               width={500}
-              height={50}
-              className="mx-auto"
+              height={100}
               style={{ color: 'transparent' }}
             />
           </Link>
@@ -34,21 +33,21 @@ const Header: FC = () => {
 
       <nav
         className={`
-          w-full bg-[#a79df3] transition-all duration-300 z-50 p-2
-          max-w-screen-xl mx-auto flex items-center justify-center gap-10
+          w-full bg-[#f2f1f9] transition-all duration-300 px-2
+          max-w-screen-xl flex items-center justify-center gap-10
           ${isSticky ? 'fixed top-0 shadow-md' : 'relative'}
         `}
+        style={{ maxWidth: '100%', paddingLeft: '2rem', paddingRight: '2rem', zIndex: 999 }}
       >
         {isSticky && (
           <div className="">
             <Link href="/" passHref>
               <Image
-                src="/drskT.png"
+                src="/smindLogo1.png"
                 alt="SKCreation"
-                width={200}
+                width={40}
                 height={20}
                 className="mx-auto"
-                style={{ color: 'transparent' }}
               />
             </Link>
           </div>
