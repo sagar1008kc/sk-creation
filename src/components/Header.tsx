@@ -33,21 +33,21 @@ const Header: FC = () => {
 
       <nav
         className={`
-          w-full bg-[#f2f1f9] transition-all duration-300 px-2
-          max-w-screen-xl flex items-center justify-center gap-10
+          w-full bg-gray-100 transition-all duration-300 px-2
+          max-w-screen-xl flex items-center justify-center gap-10 
           ${isSticky ? 'fixed top-0 shadow-md' : 'relative'}
         `}
-        style={{ maxWidth: '100%', paddingLeft: '2rem', paddingRight: '2rem', zIndex: 999 }}
+        style={{ maxWidth: '100%', paddingLeft: '2rem', paddingRight: '2rem', zIndex: 999, height: '60px' }}
       >
         {isSticky && (
           <div className="">
             <Link href="/" passHref>
               <Image
                 src="/smindLogo1.png"
-                alt="SKCreation"
+                alt="Smind Business"
                 width={40}
                 height={20}
-                className="mx-auto"
+                className="mx-auto max-w-full"
               />
             </Link>
           </div>
@@ -59,6 +59,16 @@ const Header: FC = () => {
           <Link href="/services">Services</Link>
         </div>
       </nav>
+      <div className="overflow-hidden bg-red py-2">
+          <div className="inline-block animate-slide whitespace-nowrap">
+            <a href="https://youtube.com/@thesoftsoul7" >
+            <span className="mx-4 text-white hover:text-white text-sm">  
+              <i className="pi pi-youtube"></i>
+             Click here for special youtube videos...</span>
+            
+            </a>
+          </div>
+        </div>
     </>
   );
 };

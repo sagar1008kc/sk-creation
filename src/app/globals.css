@@ -44,4 +44,11 @@ a {
   padding-inline: 4px;
 }
 
+@keyframes slide {
+  0%   { transform: translateX(100%); }
+  100% { transform: translateX(-100%); }
+}
 
+.animate-slide {
+  animation: slide 12s linear infinite;
+}

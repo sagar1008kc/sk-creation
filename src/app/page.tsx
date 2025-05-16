@@ -9,7 +9,7 @@ export default function HomePage() {
     <>
        <div className='text-center pt-5'>
           <h5 className="text-xl md:text-3xl"  style={{ letterSpacing: '6px' }}>
-            Welcome to Dr SK Brand</h5>
+            Welcome to Smind Business Platform</h5>
         </div>
       <main className="pt-[30px]">
         <section className="w-full">

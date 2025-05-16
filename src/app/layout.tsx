@@ -7,7 +7,7 @@ import Footer from '@/components/Footer';
 import Contact from '@/components/Contact';
 
 export const metadata: Metadata = {
-  title: 'SK creation',
+  title: 'smind business',
   description: 'books, shop, and studio',
 };
 

@@ -83,7 +83,7 @@ export default function SercicesPage() {
           className="mx-auto rounded-full mb-4"
         />
 
-        <h2 className="text-xl font-semibold mb-4">Dr. SK</h2>
+        <h2 className="text-xl font-semibold mb-4">SK</h2>
         <p className="text-sm leading-relaxed">
           Software Engineer <br />
           Doctorate Candidate [2025] <br />
@@ -103,7 +103,7 @@ export default function SercicesPage() {
     </div>
           <div className="text-white text-[13px]">
             <p className="mb-4">
-              <strong>Dr. SK</strong> is a technology strategist, educator, and author with a diverse background spanning software engineering, cybersecurity, and AI. With over 10 years of experience, Khatri has contributed to enterprise-scale applications, led innovation initiatives, and mentored future tech leaders.
+              <strong>SK</strong> is a technology strategist, educator, and author with a diverse background spanning software engineering, cybersecurity, and AI. With over 10 years of experience, Khatri has contributed to enterprise-scale applications, led innovation initiatives, and mentored future tech leaders.
             </p>
             <p className="mb-4">
               He began his career as a mathematics teacher, Section Officer and leadership trainer before transitioning into the tech industry. His hands-on experience includes frontend development, full-stack projects, and cloud-based infrastructure. Khatri pursuing a Doctorate in Business Administration with a focus on information systems and enterprize resource management, IT project management.

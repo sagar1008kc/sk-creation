@@ -118,7 +118,7 @@ export default function ContactPage() {
        
       </div>
       <div className="text-sm p-4">
-          <span className="">Email: </span> info@smindbusiness.com
+          <span>Email: </span> info@smindbusiness.com
           </div>
     </div>
     </>
