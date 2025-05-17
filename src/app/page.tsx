@@ -1,6 +1,7 @@
 'use client';
 import { motion } from 'framer-motion';
 import Image from 'next/image';
+import Link from 'next/link';
 import { Button } from 'primereact/button';
 import { Card } from 'primereact/card';
 
@@ -31,12 +32,12 @@ export default function HomePage() {
           <a
           href="https://www.amazon.com/author/sagar2025"
           target="_blank"
-          ><Button type="submit" label="Shop Books" className="w-full bg-[#a79df3] p-2 rounded-full text-sm md:text-3xl" />
+          ><Button type="submit" label="Shop Books" className="w-full bg-[#a79df3] p-1 rounded-full text-xs md:text-xl" />
           </a>
           <a
             href="/design"
           >
-            <Button type="submit" label="Shop T-Shirts & Mugs" className="w-full bg-[#a79df3] p-2 rounded-full text-sm md:text-3xl" />
+            <Button type="submit" label="Shop T-Shirts & Mugs" className="w-full bg-[#a79df3] p-1 rounded-full text-xs md:text-xl" />
             
           </a>
           <a
@@ -44,7 +45,7 @@ export default function HomePage() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <Button type="submit" label="Watch on YouTube" className="w-full bg-[#a79df3] p-2 rounded-full text-sm md:text-3xl" />
+            <Button type="submit" label="Watch on YouTube" className="w-full bg-[#a79df3] p-1 rounded-full text-xs md:text-xl" />
             
           </a>
         </div>
@@ -56,7 +57,20 @@ export default function HomePage() {
           <h3 className="text-3xl md:text-5xl font-bold m-5">
             Watch special contents on YouTube</h3>
         </div>
-       <div className="flex justify-center items-center mt-4">Coming soon </div>
+        <motion.div whileHover={{ scale: 1.02 }}>
+            <Card className="shadow-lg p-4">
+              <Link  href="https://youtube.com/@thesoftsoul7">
+              <Image
+                src="/images/youtube.png"
+                alt="youtube"
+                width={1200}
+                height={500}
+                className="mb-4 mx-auto"
+              />
+              
+              </Link>
+          </Card>
+          </motion.div>
         </section>
       </main>
     </>

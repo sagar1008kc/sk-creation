@@ -35,7 +35,7 @@ export default function Shop() {
         <motion.div whileHover={{ scale: 1.02 }}>
           <Card className="shadow-lg p-4">
             <Image
-              src="/images/design-1.png"
+              src="/images/shop.png"
               alt="shop design"
               width={1200}
               height={500}
