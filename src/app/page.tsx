@@ -56,14 +56,7 @@ export default function HomePage() {
           <h3 className="text-3xl md:text-5xl font-bold m-5">
             Watch special contents on YouTube</h3>
         </div>
-          <video
-            src="/videos/sk.mp4"
-            controls
-            autoPlay
-            muted
-            loop
-            className="w-full h-auto"
-          />
+       <div className="flex justify-center items-center mt-4">Coming soon </div>
         </section>
       </main>
     </>
