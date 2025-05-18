@@ -7,6 +7,7 @@ import { motion } from 'framer-motion';
 export default function HomePage() {
 
   return (
+    <>
     <div className="min-h-screen bg-black text-center">
       <motion.div 
         className="text-center py-10"
@@ -150,7 +151,6 @@ style={{
                 height={200}
                 className="mb-4 mx-auto"
               />
-              <h3 className="text-xl font-semibold mb-2">Upcomming Books..</h3>
               <p className="text-white mb-4 text-[13px]">
                 Check amazon author page for latest books.
               </p>
@@ -165,6 +165,32 @@ style={{
           </motion.div>
         </div>
       </div> 
-    </div>
+      <div className='text-center border-t my-8'></div>
+      <h3 className="text-xl font-semibold mb-2">Upcomming Books..</h3>
+      <motion.div whileHover={{ scale: 1.02 }}>
+            <Card className="shadow-lg p-4">
+              <Image
+                src="/images/thehappysoul.png"
+                alt="fourth Published Book"
+                width={1200}
+                height={200}
+                className="mb-4 mx-auto"
+              />
+            </Card>
+          </motion.div>
+          <div className='text-center border-t my-8'></div>
+          <motion.div whileHover={{ scale: 1.02 }}>
+            <Card className="shadow-lg p-4">
+              <Image
+                src="/images/book1.png"
+                alt="fourth Published Book"
+                width={1200}
+                height={200}
+                className="mb-4 mx-auto"
+              />
+            </Card>
+          </motion.div>
+      </div>
+     </> 
   );
 }

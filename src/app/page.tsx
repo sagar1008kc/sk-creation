@@ -52,6 +52,22 @@ export default function HomePage() {
       </Card>
       </motion.div>
         </section>
+        <section className="w-full mt-12 px-4 sm:px-6 lg:px-8">
+        <motion.div whileHover={{ scale: 1.02 }}>
+            <Card className="shadow-lg p-4">
+              <Link  href="/shop">
+              <Image
+                src="/images/shop1.png"
+                alt="youtube"
+                width={1200}
+                height={500}
+                className="mb-4 mx-auto"
+              />
+              
+              </Link>
+          </Card>
+          </motion.div>
+        </section>
         <section className="w-full mt-12  p-5">
         <div className='text-center border-t'>
           <h3 className="text-3xl md:text-5xl font-bold m-5">
