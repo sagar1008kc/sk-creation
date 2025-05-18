@@ -15,7 +15,7 @@ interface Product {
 
 const products: Product[] = [
   { id: '1', name: 'Graphic T-Shirt',    image: '/images/17.png', url: '#' },
-  { id: '2', name: 'Vintage Mug',         image: '/images/17.png', url: '#' },
+  { id: '2', name: 'Vintage Mug',         image: '/images/tshirt-3.png', url: '#' },
   { id: '3', name: 'Logo T-Shirt',        image: '/images/17.png', url: '#' },
   { id: '4', name: 'Custom Mug',          image: '/images/17.png', url: '#' },
   { id: '5', name: 'Motivational Tee',    image: '/images/17.png', url: '#' },

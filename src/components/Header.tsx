@@ -33,11 +33,11 @@ const Header: FC = () => {
 
       <nav
         className={`
-          w-full bg-gray-100 transition-all duration-300 px-2
+          w-full bg-gray-100 transition-all duration-300 px-1
           max-w-screen-xl flex items-center justify-center gap-10 
           ${isSticky ? 'fixed top-0 shadow-md' : 'relative'}
         `}
-        style={{ maxWidth: '100%', paddingLeft: '2rem', paddingRight: '2rem', zIndex: 999, height: '60px' }}
+        style={{ maxWidth: '100%', paddingRight: '.5rem', zIndex: 999, height: '50px' }}
       >
         {isSticky && (
           <div className="">
@@ -53,10 +53,12 @@ const Header: FC = () => {
           </div>
         )}
 
-        <div className="flex gap-6 text-md md:text-lg">
+        <div className="flex gap-4 text-sm md:text-lg">
+          <Link href="/">Home</Link>
           <Link href="/books">Books</Link>
           <Link href="/shop">Shop</Link>
           <Link href="/services">Services</Link>
+          <Link href="/contact">Contact</Link>
         </div>
       </nav>
       <div className="overflow-hidden bg-red py-2">

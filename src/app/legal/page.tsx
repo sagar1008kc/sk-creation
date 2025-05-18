@@ -26,7 +26,7 @@ export default function LegalPage() {
 
                     <AccordionTab header="Privacy Policy" className="accordion-tab">
                         <div className="text-gray-700">
-                            Last updated May 15, 2025. We collect the personal data you provide (e.g., name, email) and usage data (IP address, cookies). We use it to operate and improve our services, send updates, and comply with legal obligations. We do not sell your data but may share it with trusted service providers under confidentiality agreements. To access, correct, or delete your data, email privacy@smindbusiness.com.
+                            Last updated May 15, 2025. We collect the personal data you provide (e.g., name, email) and usage data (IP address, cookies). We use it to operate and improve our services, send updates, and comply with legal obligations. We do not sell your data but may share it with trusted service providers under confidentiality agreements. To access, correct, or delete your data, email info@smindbusiness.com.
                         </div>
                     </AccordionTab>
 

@@ -46,7 +46,7 @@ const services = [
 export default function SercicesPage() {
   return (
     <>
-     <section className="py-16 px-4 bg-bluegray-400">
+     <section className="py-16 px-4">
       <div className="text-3xl md:text-4xl font-bold text-center text-white mb-12">
         What We Offer
       </div>
@@ -54,7 +54,7 @@ export default function SercicesPage() {
         {services.map((service, idx) => (
           <div
             key={idx}
-            className="bg-gray-400 hover:bg-white border border-gray-200 rounded-lg p-6 text-center shadow-sm transition"
+            className="bg-gray-100 hover:bg-[#a79df3] border border-gray-200 rounded-lg p-6 text-center shadow-sm transition"
           >
             <div className="mb-4 flex justify-center">{service.icon}</div>
             <div className="text-lg font-semibold mb-2 text-[#800000]">{service.title}</div>
