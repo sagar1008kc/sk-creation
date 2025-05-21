@@ -32,10 +32,11 @@ export default function Shop() {
         Shop Your Favorite T-shirt & Mug – Best Gift
       </div>
       <section className="w-full px-4 sm:px-6 lg:px-8">
+        <Link href="https://www.etsy.com/shop/SoftMindShop">
         <motion.div whileHover={{ scale: 1.02 }}>
           <Card className="shadow-lg p-4">
             <Image
-              src="/images/shop.png"
+              src="/images/shopads.png"
               alt="shop design"
               width={1200}
               height={500}
@@ -55,6 +56,7 @@ export default function Shop() {
             </div>
           </Card>
         </motion.div>
+        </Link>
       </section>
 
       {/* Featured Products */}
