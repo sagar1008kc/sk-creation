@@ -35,7 +35,7 @@ export default function HomePage() {
           ><Button type="submit" label="Shop Books" className="w-full bg-[#a79df3] p-1 rounded-full text-xs md:text-xl" />
           </a>
           <a
-            href="/design"
+            href="https://www.etsy.com/shop/DrSKDesigns"
           >
             <Button type="submit" label="Shop T-Shirts & Mugs" className="w-full bg-[#a79df3] p-1 rounded-full text-xs md:text-xl" />
             
