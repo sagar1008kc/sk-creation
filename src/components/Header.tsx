@@ -37,17 +37,17 @@ const Header: FC = () => {
           max-w-screen-xl flex items-center justify-center gap-10 
           ${isSticky ? 'fixed top-0 shadow-md' : 'relative'}
         `}
-        style={{ maxWidth: '100%', paddingRight: '.5rem', zIndex: 999, height: '50px' }}
+        style={{ maxWidth: '100%', paddingRight: '.5rem', zIndex: 999, height: '50px'}}
       >
         {isSticky && (
-          <div className="">
+          <div className="flex items-center justify-start">
             <Link href="/" passHref>
               <Image
-                src="/smindLogo1.png"
+                src="/smindLogoBlack.png"
                 alt="Smind Business"
                 width={40}
                 height={20}
-                className="mx-auto max-w-full"
+                className="mx-auto max-w-full rounded-lg"
               />
             </Link>
           </div>

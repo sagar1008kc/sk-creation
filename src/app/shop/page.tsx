@@ -14,14 +14,26 @@ interface Product {
 }
 
 const products: Product[] = [
-  { id: '1', name: 'Graphic T-Shirt',    image: '/images/17.png', url: '#' },
-  { id: '2', name: 'Vintage Mug',         image: '/images/tshirt-3.png', url: '#' },
-  { id: '3', name: 'Logo T-Shirt',        image: '/images/17.png', url: '#' },
-  { id: '4', name: 'Custom Mug',          image: '/images/17.png', url: '#' },
-  { id: '5', name: 'Motivational Tee',    image: '/images/17.png', url: '#' },
-  { id: '6', name: 'Travel Mug',          image: '/images/17.png', url: '#' },
-  { id: '7', name: 'Classic T-Shirt',     image: '/images/17.png', url: '#' },
-  { id: '8', name: 'Artistic Mug',        image: '/images/17.png', url: '#' },
+  { id: '1', name: 'Graphic T-Shirt',    image: '/images/1.png', url: 'https://www.etsy.com/listing/4308816409/unisex-ultra-cotton-tee-casual-tee-shirt?click_key=9a42542c69c14dfcab7877ffc8eb362c2b91279f%3A4308816409&click_sum=2cd19cf9&ref=shop_home_active_1' },
+  { id: '2', name: 'Vintage Mug',         image: '/images/2.png', url: 'https://www.etsy.com/listing/4308287777/summer-vibes-unisex-v-neck-tee-cool-look?ls=r&ref=hp_rv-6&content_source=bc0b8e66f6def299395af3e606b3d16039affb8f%253A4308287777&logging_key=bc0b8e66f6def299395af3e606b3d16039affb8f%3A4308287777' },
+  { id: '3', name: 'Logo T-Shirt',        image: '/images/61.png', url: '#' },
+  { id: '4', name: 'Custom Mug',          image: '/images/65.png', url: '#' },
+  { id: '5', name: 'Motivational Tee',    image: '/images/43.png', url: '#' },
+  { id: '6', name: 'Travel Mug',          image: '/images/34.png', url: '#' },
+  { id: '7', name: 'Classic T-Shirt',     image: '/images/50.png', url: '#' },
+  { id: '8', name: 'Artistic Mug',        image: '/images/63.png', url: '#' },
+  { id: '9', name: 'Artistic Mug',        image: '/images/54.png', url: '#' },
+  { id: '10', name: 'Artistic Mug',        image: '/images/64.png', url: '#' },
+  { id: '11', name: 'Artistic Mug',        image: '/images/65.png', url: '#' },
+  { id: '12', name: 'Artistic Mug',        image: '/images/5.png', url: '#' },
+  { id: '13', name: 'Artistic Mug',        image: '/images/70.png', url: '#' },
+  { id: '14', name: 'Artistic Mug',        image: '/images/71.png', url: '#' },
+  { id: '15', name: 'Artistic Mug',        image: '/images/72.png', url: '#' },
+  { id: '16', name: 'Artistic Mug',        image: '/images/73.png', url: '#' },
+  { id: '17', name: 'Artistic Mug',        image: '/images/17.png', url: '#' },
+  { id: '18', name: 'Artistic Mug',        image: '/images/m3.png', url: '#' },
+  { id: '19', name: 'Artistic Mug',        image: '/images/m1.png', url: '#' },
+  { id: '20', name: 'Artistic Mug',        image: '/images/m2.png', url: '#' },
 ];
 
 export default function Shop() {
