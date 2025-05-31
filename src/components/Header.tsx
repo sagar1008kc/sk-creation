@@ -17,14 +17,14 @@ const Header: FC = () => {
 
   return (
     <>
-      <header className="bg-black w-full z-40 shadow-md">
+      <header className="bg-black w-full z-20 shadow-md">
         <div className="flex justify-center items-center">
           <Link href="/" passHref>
             <Image
-              src="/smindLOGO.png"
+              src="/smLogo.png"
               alt="smindBusiness"
-              width={500}
-              height={100}
+              width={300}
+              height={70}
               style={{ color: 'transparent' }}
             />
           </Link>
@@ -43,10 +43,10 @@ const Header: FC = () => {
           <div className="flex items-center justify-start">
             <Link href="/" passHref>
               <Image
-                src="/smindLogoBlack.png"
+                src="/smindLOGO.png"
                 alt="Smind Business"
-                width={40}
-                height={20}
+                width={50}
+                height={50}
                 className="mx-auto max-w-full rounded-lg"
               />
             </Link>

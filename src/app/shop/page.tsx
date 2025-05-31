@@ -40,15 +40,16 @@ export default function Shop() {
   return (
     <main className="pt-[30px] bg-white">
       {/* Hero Section */}
-      <div className="text-l md:text-3xl font-bold text-[#800000] mb-3 text-center p-2">
+      <div className="text-l md:text-3xl font-bold text-[#800000] mb-3 text-center p-2 pb-2">
       Shop Your Favorite T-Shirts & Mugs — The Ultimate Gift!
-        <p className='p-3'>Explore Our Collection of Custom-Designed T-Shirts and Mugs<br />
-        Perfect for Any Occasion!<br />
-        <span className="text-[#808080] my-3"> 🎁 👉Check out all available colors and sizes (XS–5XXL) to find your perfect fit and surprise someone special today!</span>
+        <p className='p-1'>Explore Our Collection of Custom-Designed T-Shirts and Mugs</p>
+        <p className='p-1'>Perfect for Any Occasion!</p>
+        <p>
+        <div className="text-[#808080] text-sm text-[#800000]"> 🎁 👉Check out all available colors and sizes (XS–5XXL) to find your perfect fit and surprise someone special today!</div>
        </p>
       </div>
       <section className="w-full px-4 sm:px-6 lg:px-8">
-        <Link href="https://www.etsy.com/shop/SoftMindShop">
+        <Link href="https://www.etsy.com/shop/DrSKDesign">
         <motion.div whileHover={{ scale: 1.02 }}>
           <Card className="shadow-lg p-4">
             <Image
@@ -59,13 +60,12 @@ export default function Shop() {
               className="mb-4 mx-auto"
             />
             <div className="flex justify-center flex-wrap gap-4 mt-6">
-              <Link
-                href="https://www.etsy.com/shop/DrSKDesigns"
+              <div
                 className="bg-[#FFFDD0] px-6 py-2 rounded-full hover:bg-red transition text-xs md:text-lg"
                 style={{ color: 'black' }}
               >
                 Shop T-Shirts & Mugs
-              </Link>
+              </div>
             </div>
           </Card>
         </motion.div>
