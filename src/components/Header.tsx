@@ -17,11 +17,11 @@ const Header: FC = () => {
 
   return (
     <>
-      <header className="bg-black w-full z-20 shadow-md">
+      <header className="w-full z-20 shadow-md">
         <div className="flex justify-center items-center">
           <Link href="/" passHref>
             <Image
-              src="/smLogo.png"
+              src="/smindLOGO.png"
               alt="smindBusiness"
               width={300}
               height={70}
@@ -33,20 +33,20 @@ const Header: FC = () => {
 
       <nav
         className={`
-          w-full bg-gray-100 transition-all duration-300 px-1
+          w-full bg-gray-400 transition-all duration-300
           max-w-screen-xl flex items-center justify-center gap-10 
           ${isSticky ? 'fixed top-0 shadow-md' : 'relative'}
         `}
-        style={{ maxWidth: '100%', paddingRight: '.5rem', zIndex: 999, height: '50px'}}
+        style={{ maxWidth: '100%', paddingRight: '.5rem', zIndex: 999, height: '45px'}}
       >
         {isSticky && (
           <div className="flex items-center justify-start">
             <Link href="/" passHref>
               <Image
-                src="/smindLOGO.png"
+                src="/smindLOGO1.png"
                 alt="Smind Business"
-                width={50}
-                height={50}
+                width={200}
+                height={100}
                 className="mx-auto max-w-full rounded-lg"
               />
             </Link>
@@ -61,10 +61,10 @@ const Header: FC = () => {
           <Link href="/contact">Contact</Link>
         </div>
       </nav>
-      <div className="overflow-hidden bg-red py-2">
+      <div className="overflow-hidden py-2">
           <div className="inline-block animate-slide whitespace-nowrap">
             <a href="https://youtube.com/@thesoftsoul7" >
-            <span className="mx-4 text-white hover:text-white text-sm">  
+            <span className="mx-4 text-[#808080] hover:text-black text-sm">  
               <i className="pi pi-youtube"></i>
              Click here for special youtube videos...</span>
             

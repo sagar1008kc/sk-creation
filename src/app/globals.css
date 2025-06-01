@@ -20,8 +20,8 @@
 } */
 
 body {
-  background-color: #2a2b2e;
-  color: #F8FAFC;
+  background-color: #eef2fc;
+  color: #0303030b;
   font-family: 'Inter', sans-serif;
 }
 
@@ -31,17 +31,16 @@ h1, h2, h3 {
 }
 h4, h5, h6 {
   font-family: 'Orbitron', sans-serif;
-  color: #a79df3;
+  color: #2d2d2d;
 }
 p {
-  color: #a79df3;
+  color: #333239;
   font-size: 15px;
 }
 a {
   color: #201114;
   font-weight: bold;
   border-radius: 8px;
-  padding-inline: 4px;
 }
 
 @keyframes slide {

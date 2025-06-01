@@ -8,7 +8,7 @@ export default function HomePage() {
 
   return (
     <>
-    <div className="min-h-screen bg-black text-center">
+    <div className="min-h-screen text-center">
       <motion.div 
         className="text-center py-10"
         initial={{ opacity: 0, y: -20 }} 

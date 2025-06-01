@@ -5,7 +5,7 @@ import Image from 'next/image';
 
 export default function Footer() {
   return (
-    <footer className="text-center py-6 mt-3 flex flex-col items-center gap-4 mb-4">
+    <footer className="text-center bg-grey py-6 mt-3 flex flex-col items-center gap-4 mb-4">
       <div className="flex flex-wrap justify-center gap-4">
         <Link
           href="/legal"
@@ -23,13 +23,13 @@ export default function Footer() {
       {/* copyright */}
       <div className="text-gray-400 text-sm">
               <Image
-                src="/smindLogo1.png"
+                src="/smindLOGO1.png"
                 alt="Smind Business"
-                width={60}
+                width={200}
                 height={20}
                 className="mx-auto max-w-full rounded-lg"
               />
-            </div> © {new Date().getFullYear()} smindbusiness.com All rights reserved.
+            </div> <span className='text-[#808080]'>© {new Date().getFullYear()} smindbusiness.com All rights reserved.</span>
     </footer>
   );
 }
