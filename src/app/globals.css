@@ -27,14 +27,14 @@ body {
 
 h1, h2, h3 {
   font-family: 'Roboto Mono', monospace;
-  color: #00E396;
+  color: #3c3d3d;
 }
 h4, h5, h6 {
   font-family: 'Orbitron', sans-serif;
   color: #2d2d2d;
 }
 p {
-  color: #333239;
+  color: #1d1d1e;
   font-size: 15px;
 }
 a {

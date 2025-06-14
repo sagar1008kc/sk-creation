@@ -151,7 +151,7 @@ export default function SercicesPage() {
     </div>
   </div>
 </section>
-      <section className="py-16 px-4 bg-gray-900 text-white">
+      <section className="py-16 px-4 bg-gray-900 text-black">
   <h2 className="text-4xl font-extrabold text-center mb-12">Our Service Plans</h2>
   <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
     {servicePlans.map(({ name, price, features }) => (
@@ -197,6 +197,15 @@ export default function SercicesPage() {
         </div>
         </Link>
 </section>
+<section className="py-16 px-4 bg-gray-100 text-gray-800">
+  <div className="max-w-3xl mx-auto text-center mb-8">
+    <h2 className="text-3xl md:text-4xl font-bold">Sample websites</h2>
+    <p className="mt-2 text-lg text-gray-600">
+      What type of business do you have? email us. 
+    </p>
+    <a href="/https://g.co/gemini/share/c409912edda4" className="text-blue-600 hover:underline mt-4 inline-block">Salon's website</a>
+ </div>
+  </section>
       <div className="border-t"></div>
 
       {/* About Me */}
