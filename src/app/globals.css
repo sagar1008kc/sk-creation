@@ -20,25 +20,25 @@
 } */
 
 body {
-  background-color: #eef2fc;
-  color: #0303030b;
+  background-color: #121214;
+  color: white;
   font-family: 'Inter', sans-serif;
 }
 
 h1, h2, h3 {
   font-family: 'Roboto Mono', monospace;
-  color: #3c3d3d;
+  color: #7e9494;
 }
 h4, h5, h6 {
   font-family: 'Orbitron', sans-serif;
-  color: #2d2d2d;
+  color: #9b9c9e;
 }
 p {
-  color: #1d1d1e;
+  color: #535360;
   font-size: 15px;
 }
 a {
-  color: #201114;
+  color: #060606;
   font-weight: bold;
   border-radius: 8px;
 }

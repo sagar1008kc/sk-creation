@@ -33,7 +33,7 @@ const Header: FC = () => {
 
       <nav
         className={`
-          w-full bg-gray-400 transition-all duration-300
+          w-full bg-white transition-all duration-300
           max-w-screen-xl flex items-center justify-center gap-10 
           ${isSticky ? 'fixed top-0 shadow-md' : 'relative'}
         `}
@@ -45,7 +45,7 @@ const Header: FC = () => {
               <Image
                 src="/smindLOGO1.png"
                 alt="Smind Business"
-                width={200}
+                width={100}
                 height={100}
                 className="mx-auto max-w-full rounded-lg"
               />

@@ -87,7 +87,7 @@ export default function SercicesPage() {
     <>
       {/* What We Offer */}
       <section className="py-16 px-4">
-        <div className="text-3xl md:text-4xl font-bold text-center text-black mb-12">
+        <div className="text-xl md:text-2xl font-bold text-center mb-12">
           What We Offer
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
@@ -203,7 +203,7 @@ export default function SercicesPage() {
     <p className="mt-2 text-lg text-gray-600">
       What type of business do you have? email us. 
     </p>
-    <a href="/https://g.co/gemini/share/c409912edda4" className="text-blue-600 hover:underline mt-4 inline-block">Salon's website</a>
+    <a href="/https://g.co/gemini/share/c409912edda4" className="text-blue-600 hover:underline mt-4 inline-block">Salon website</a>
  </div>
   </section>
       <div className="border-t"></div>
@@ -238,8 +238,8 @@ export default function SercicesPage() {
               <div className="p-5">
                 <p>
                   Click for Latest Books:{' '}
-                  <a href="https://www.amazon.com/author/sagar2025" className="text-white underline">
-                    Amazon Author Site
+                  <a href="https://www.amazon.com/author/sagar2025" className=" underline">
+                    <span className='text-white'>Amazon Author Site</span>
                   </a>
                 </p>
               </div>
